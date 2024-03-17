@@ -73,9 +73,3 @@ Contributions are welcome! Please follow these steps:
 4. Push your changes to your forked repository.
 5. Submit a pull request to the main repository.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-```
-
-This README file provides an overview of the Hospital Management System project, including its features, installation instructions, usage guidelines, and information on how to contribute. You can customize this file further by adding details specific to your project, such as any additional dependencies, deployment instructions, or other relevant information.
