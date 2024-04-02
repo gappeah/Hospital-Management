@@ -13,7 +13,6 @@ Currently working on this Django application provides a robust platform for mana
 
 ## Installation
 
-<<<<<<< HEAD
 ## How to use the application:
 **Instructions**
 - Install the Requirements: pip install -r requirements.txt
@@ -24,7 +23,6 @@ Currently working on this Django application provides a robust platform for mana
 For Admin Account, please create one with superuser
 =======
 1. Clone the repository:
->>>>>>> 7e454ab583f6ae70276b5b3e4232b753c874c682
 
 ```bash
 git clone https://github.com/your-username/hospital-management.git
