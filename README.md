@@ -13,18 +13,6 @@ Currently working on this Django application provides a robust platform for mana
 
 ## Installation
 
-<<<<<<< HEAD
-## How to use the application:
-**Instructions**
-- Install the Requirements: pip install -r requirements.txt
-- Then, make database migrations: python manage.py makemigrations
-- python manage.py migrate
-- And finally, run the application: python manage.py runserver
-
-For Admin Account, please create one with superuser
-=======
-=======
->>>>>>> a947d00700f4de8c630a307474a7b7737648e588
 1. Clone the repository:
 
 ```bash
@@ -42,7 +30,6 @@ pip install -r requirements.txt
 ```bash
 python manage.py makemigrations
 ```
-
 
 4. Apply database migrations:
 
