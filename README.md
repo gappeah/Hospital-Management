@@ -13,6 +13,7 @@ Currently working on this Django application provides a robust platform for mana
 
 ## Installation
 
+<<<<<<< HEAD
 ## How to use the application:
 **Instructions**
 - Install the Requirements: pip install -r requirements.txt
@@ -22,55 +23,46 @@ Currently working on this Django application provides a robust platform for mana
 
 For Admin Account, please create one with superuser
 =======
+=======
+>>>>>>> a947d00700f4de8c630a307474a7b7737648e588
 1. Clone the repository:
 
 ```bash
 git clone https://github.com/your-username/hospital-management.git
 ```
 
-2. Navigate to the project directory:
-
-```bash
-cd hospital-management
-```
-
-3. Create and activate a virtual environment (optional but recommended):
-
-```bash
-python -m venv env
-source env/bin/activate  # On Windows, use `env\Scripts\activate`
-```
-
-4. Install the required dependencies:
+2. Install the Requirements:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-5. Apply database migrations:
+3. Then, make database migrations
+
+```bash
+python manage.py makemigrations
+```
+
+
+4. Apply database migrations:
 
 ```bash
 python manage.py migrate
 ```
 
-6. Create a superuser account (for admin access):
+5. Create a superuser account (for admin access):
 
 ```bash
 python manage.py createsuperuser
 ```
 
-7. Start the development server:
+6. Start the development server:
 
 ```bash
 python manage.py runserver
 ```
 
 The application should now be accessible at `http://127.0.0.1:8000/`.
-
-## Usage
-
-- Access the admin panel at `http://127.0.0.1:8000/admin` using the superuser credentials created earlier.
-- Access the base panel at `http://127.0.0.1:8000/base` access the base panel.
 
 ## Contributing
 
