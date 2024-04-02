@@ -29,5 +29,13 @@ Currently working on this Django application provides a robust platform for mana
 - Manage staff profiles, roles, and permissions.
 - Track staff attendance and schedule shifts effectively.
 
+## How to use the application:
+**Instructions**
+- Install the Requirements: pip install -r requirements.txt
+- Then, make database migrations: python manage.py makemigrations
+- python manage.py migrate
+- And finally, run the application: python manage.py runserver
+
+For Admin Account, please create one with superuser
 
 
