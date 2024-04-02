@@ -2,33 +2,18 @@
 
 Currently working on this Django application provides a robust platform for managing various aspects of hospital operations, aiming to streamline workflows and enhance patient care.
 
+## Features
 
-## Roadmap Features:
+- Patient Management: Add, view, edit, and delete patient records.
+- Doctor Management: Add, view, edit, and delete doctor profiles.
+- Appointment Management: Schedule, view, edit, and cancel appointments.
+- Payment Management: Record and track patient payments.
+- Room Allotment: Assign and manage hospital room allotments.
+- User Authentication: Login and signup functionality for admins and staff members.
 
-## Patient Management:
-- Create, view, and edit patient profiles, including demographics, medical history, allergies, and insurance information.
-- Schedule appointments, track vitals, and manage referrals.
-- Implement robust security measures to protect patient data confidentiality (adhere to HIPAA compliance guidelines).
-## Doctor Management:
--  Register and manage doctor profiles, including specialties, qualifications, and availability.
-- Facilitate appointment scheduling and management for doctors.
-- Enable secure access to patient records for diagnosis and treatment planning.
-## Appointment Management:
-- Allow patients and staff to schedule appointments online or through a centralized system.
-- Integrate with calendars to avoid conflicts and ensure efficient scheduling.
-- Provide options for appointment rescheduling and cancellation.
-## Billing and Insurance:
-- Manage patient billing and insurance claims processing.
-- Generate invoices and reports for financial tracking.
-- Ensure integration with relevant third-party payment gateways and insurance providers.
-## Inventory Management:
-- Track hospital supplies and medications.
-- Implement low-stock alerts and reorder points for proactive inventory control.
-- Consider integrating with barcode scanning for efficient inventory management.
-## Staff Management:
-- Manage staff profiles, roles, and permissions.
-- Track staff attendance and schedule shifts effectively.
+## Installation
 
+<<<<<<< HEAD
 ## How to use the application:
 **Instructions**
 - Install the Requirements: pip install -r requirements.txt
@@ -37,5 +22,65 @@ Currently working on this Django application provides a robust platform for mana
 - And finally, run the application: python manage.py runserver
 
 For Admin Account, please create one with superuser
+=======
+1. Clone the repository:
+>>>>>>> 7e454ab583f6ae70276b5b3e4232b753c874c682
 
+```bash
+git clone https://github.com/your-username/hospital-management.git
+```
+
+2. Navigate to the project directory:
+
+```bash
+cd hospital-management
+```
+
+3. Create and activate a virtual environment (optional but recommended):
+
+```bash
+python -m venv env
+source env/bin/activate  # On Windows, use `env\Scripts\activate`
+```
+
+4. Install the required dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+5. Apply database migrations:
+
+```bash
+python manage.py migrate
+```
+
+6. Create a superuser account (for admin access):
+
+```bash
+python manage.py createsuperuser
+```
+
+7. Start the development server:
+
+```bash
+python manage.py runserver
+```
+
+The application should now be accessible at `http://127.0.0.1:8000/`.
+
+## Usage
+
+- Access the admin panel at `http://127.0.0.1:8000/admin` using the superuser credentials created earlier.
+- Access the base panel at `http://127.0.0.1:8000/base` access the base panel.
+
+## Contributing
+
+Contributions are welcome! Please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make the necessary changes and commit them.
+4. Push your changes to your forked repository.
+5. Submit a pull request to the main repository.
 
