@@ -52,11 +52,6 @@ python manage.py runserver
 
 The application should now be accessible at `http://127.0.0.1:8000/`.
 
-## Usage
-
-- Access the admin panel at `http://127.0.0.1:8000/admin` using the superuser credentials created earlier.
-- Access the base panel at `http://127.0.0.1:8000/base` access the base panel.
-
 ## Contributing
 
 Contributions are welcome! Please follow these steps:
