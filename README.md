@@ -13,55 +13,38 @@ Currently working on this Django application provides a robust platform for mana
 
 ## Installation
 
-<<<<<<< HEAD
-## How to use the application:
-**Instructions**
-- Install the Requirements: pip install -r requirements.txt
-- Then, make database migrations: python manage.py makemigrations
-- python manage.py migrate
-- And finally, run the application: python manage.py runserver
-
-For Admin Account, please create one with superuser
-=======
 1. Clone the repository:
->>>>>>> 7e454ab583f6ae70276b5b3e4232b753c874c682
 
 ```bash
 git clone https://github.com/your-username/hospital-management.git
 ```
 
-2. Navigate to the project directory:
-
-```bash
-cd hospital-management
-```
-
-3. Create and activate a virtual environment (optional but recommended):
-
-```bash
-python -m venv env
-source env/bin/activate  # On Windows, use `env\Scripts\activate`
-```
-
-4. Install the required dependencies:
+2. Install the Requirements:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-5. Apply database migrations:
+3. Then, make database migrations
+
+```bash
+python manage.py makemigrations
+```
+
+
+4. Apply database migrations:
 
 ```bash
 python manage.py migrate
 ```
 
-6. Create a superuser account (for admin access):
+5. Create a superuser account (for admin access):
 
 ```bash
 python manage.py createsuperuser
 ```
 
-7. Start the development server:
+6. Start the development server:
 
 ```bash
 python manage.py runserver
