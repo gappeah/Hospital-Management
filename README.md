@@ -1,6 +1,6 @@
 # Hospital Management System
 
-Currently working on this Django application provides a robust platform for managing various aspects of hospital operations, aiming to streamline workflows and enhance patient care.
+A Django application provides a robust platform for managing various aspects of hospital operations, aiming to streamline workflows and enhance patient care. 
 
 ## Features
 
