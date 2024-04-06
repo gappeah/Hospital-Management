@@ -7,8 +7,6 @@ A Django application provides a robust platform for managing various aspects of 
 - Patient Management: Add, view, edit, and delete patient records.
 - Doctor Management: Add, view, edit, and delete doctor profiles.
 - Appointment Management: Schedule, view, edit, and cancel appointments.
-- Payment Management: Record and track patient payments.
-- Room Allotment: Assign and manage hospital room allotments.
 - User Authentication: Login and signup functionality for admins and staff members.
 
 ## Installation
